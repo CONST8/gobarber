@@ -1,5 +1,5 @@
 import {Router, request, response} from 'express';
-import {isUuid, uuid} from 'uuidv4'
+import {uuid} from 'uuidv4'
 
 const appointmentsRouter = Router();
 
