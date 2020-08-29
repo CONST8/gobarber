@@ -1,9 +1,8 @@
 import {
   MigrationInterface, QueryRunner, Table, TableForeignKey,
 } from 'typeorm';
-import { uuid } from 'uuidv4';
 
-export default class createAppoitments1598469884853 implements MigrationInterface {
+export default class CreateAppoitments1598469884853 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
